@@ -15,6 +15,7 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #141414;
+    scrollbar-width: none;
     /* other styles */
 }
 
@@ -80,3 +81,13 @@ tr:nth-child(even) {
 td {
     color: #ffdd57; /* Set color of table data to yellow */
 }
+
+
+
+.container{
+    scrollbar-width: 1px;
+    scrollbar-color: #ffdd57 #141414;
+    
+}
+
+
